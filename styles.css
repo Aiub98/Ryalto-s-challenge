@@ -1,0 +1,171 @@
+
+/* GENERAL STYLING */
+
+body{
+  background-color: #f9f9f9;
+  margin: 1px;
+  padding:0;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+}
+
+
+/* Navbar styles */
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 50px;
+}
+
+.logo {
+  background-color: transparent;
+  width: 180px;
+  height: 80px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  border-radius: 4px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #444;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Banner styles */
+
+.banner img {
+  width: 100%;
+  height: 770px;
+  object-fit: cover;
+  margin-bottom: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+/* Card styles */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 6px;
+  width: 300px;
+  height: 400px;
+  background-color:#2999EF;
+  color: #444;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 25px;
+}
+.cardbtn{
+  background-color: #444;
+  color:rgb(222, 215, 215);
+  border: transparent;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.cardbtn:hover{
+  background-color: rgb(222, 215, 215);
+  color: #444;
+}
+
+.card-tw{
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  width: 500px;
+  height: 200px;
+  background-color:#f9f9f9;
+  color: #444;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+
+.card-tw-profile{
+  display: block;
+}
+
+
+.card-avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.h2-cards-tw{
+  padding-top: 120px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #444;
+}
+
+
+/* Footer styles */
+footer {
+  display: block;
+  justify-content: space-around;
+  background-color: #2999EF;
+  padding: 25px;
+}
+
+.footer-img{
+  align-items: center;
+  width: 270px;
+  height: 100px;
+  padding: 20px;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #f9f9f9;
+  cursor: pointer;
+  margin: 35px;
+  font-size: 40px;
+}
